@@ -1,0 +1,76 @@
+.container {
+  background-color: rgb(7, 2, 71);
+  justify-content: center;
+  width: 50%;
+  margin-left: 26%;
+  margin-top: 5%;
+  text-align: center;
+  padding: 20px;
+}
+
+.container h4 {
+  color: white;
+  padding-bottom: 5px;
+}
+
+.container_entry input {
+  border-radius: 10px;
+  padding: 3px;
+  width: 60%;
+  padding-left: 6px;
+}
+
+.container_entry button {
+  margin-left: 10px;
+  padding: 3px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: rgb(53, 53, 53);
+  cursor: pointer;
+}
+
+.container_entry button:hover {
+  background-color: rgb(193, 193, 122);
+}
+
+.container_data {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+
+}
+
+.heading {
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: rgb(67, 87, 116);
+  padding: 5px 0px;
+
+}
+
+.container_data p {
+  background-color: rgb(50, 67, 67);
+  /* text-align: left; */
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 50%;
+  padding: 0px 10px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.container_data button {
+  padding: 5px 10px;
+  margin-left: 10px;
+  border-radius: 30px;
+  background-color: rgb(177, 58, 58);
+  color: white;
+  cursor: pointer;
+}

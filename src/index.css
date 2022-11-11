@@ -9,6 +9,11 @@
   box-sizing: border-box;
 }
 
+
+body{
+  background-color: #ccddff;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
